@@ -6,6 +6,8 @@ metadata:
   name: bubble-animation
   namespace: bubble-animation
 spec:
+  tls:
+    termination: edge
   port:
     targetPort: 8080
   to:
